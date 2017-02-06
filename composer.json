@@ -1,0 +1,22 @@
+{
+	"name": "oldskoolfan/memescraper",
+	"description": "scrapez da memes",
+	"minimum-stability": "dev",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "oldskoolfan",
+			"email": "me@andrewfharris.com"
+		}
+	],
+	"require": {
+		"fabpot/goutte": "v3.2.1",
+		"jenssegers/imagehash": "v0.4.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "5.5.*"
+	},
+	"autoload": {
+		"psr-4": {"MemeScraper\\": "src/"}
+	}
+}
