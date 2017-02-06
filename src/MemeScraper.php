@@ -11,7 +11,7 @@ class MemeScraper extends Client
     public function get4ChanVideoGameBoard() : Crawler {
         $crawler = null;
         try {
-            $crawler = $this->request('GET', 'http://boards.4chansss.org/v/');
+            $crawler = $this->request('GET', 'http://boards.4chan.org/v/');
             return $crawler;
         } catch (ConnectException $ex) {
             $crawler = new Crawler($ex->getMessage());
